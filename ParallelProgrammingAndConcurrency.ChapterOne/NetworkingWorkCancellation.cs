@@ -27,7 +27,12 @@ public class NetworkingWorkCancellation
     public void CheckNetworkStatus(object obj)
     {
         var cancellationToken = (CancellationToken)obj;
-        while (!cancellationToken.IsCancellationRequested)
+        bool finished = false;
+        cancellationToken.Register(() =>
+        {
+            finished = true;
+        });
+        while (!finished)
         {
             bool isNetWorkUp = NetworkInterface.GetIsNetworkAvailable();
             Console.WriteLine($"Is Network available? {isNetWorkUp}");
