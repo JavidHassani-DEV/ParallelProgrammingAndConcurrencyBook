@@ -10,7 +10,7 @@ thread is a single unit of execution with in a process
 managed thread is a thread that is created and controlled by CLR(common language runtime)
 
 ## diff between background and foreground threads
-if all foreground thread stop, application will be stopped to, but background threads are not like that.
+if all foreground threads stop, application will be stopped to, but background threads are not like that.
 
 ## How does .NET handle scheduling managed threads?
 by their Priority property which is an enumeration
@@ -35,13 +35,13 @@ cancellationToken.Register(() =>
 ## Summary of what is discussed in this chapter. 
 this chapter was all about thread management, how to create pause or destroy a thread, 
 after that there is data synchronization among threads which is basically locking mechanisms, 
-in this chapter they talked about `Monitor` class, then `lock` object, which says that it is an implementation of `Monitor` class as an keyword
+in this chapter they talked about `Monitor` class, then `lock` keyword, which says that it is an implementation of `Monitor` class as an keyword
 after we have `Mutex` which is another construct we have for thread synchronization
 
 ### different between lock and mutex
-lock is being used within a single process and in a single service, outside of that process lock is unknown, 
+lock is being used within a single process scenario, if another process runs that code, it doesn't interfere the other process using that peace of code, 
 but mutex is designed to coordinate work between processes, it can handle the synchronization between multiple processes, 
-and useful when in a scenario you need to have access to some data shared between multiple processes.
+and useful when in a scenario you need to have access to some data shared between multiple processes. and for to be able to do that, OS is handling the work.
 
 next we get to `ReaderWriterLockSlim` class, which in simple terms, allows only one writer but multiple reader at a time, 
 when a thread tries to write, it blocks all the threads to wait for the new data, but when everyone is reading, there is no limitation.
