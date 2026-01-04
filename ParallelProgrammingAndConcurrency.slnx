@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="ChapterFourAwaitExample/ChapterFourAwaitExample.csproj" Id="d313cab7-8bee-43cf-bf66-e6d07ece7044" />
   <Project Path="D:/Projects/ParallelProgrammingAndConcurrencyBookCodes/ParallelProgrammingAndConcurrency/ParallelProgrammingAndConcurrency.ChapterOne/ParallelProgrammingAndConcurrency.ChapterOne.csproj" />
   <Project Path="D:/Projects/ParallelProgrammingAndConcurrencyBookCodes/ParallelProgrammingAndConcurrency/ParallelProgrammingAndConcurrency.ChapterThree/ParallelProgrammingAndConcurrency.ChapterThree.csproj" Id="a3807126-b509-4ff6-9595-b9eeba3ffa60" />
   <Project Path="D:/Projects/ParallelProgrammingAndConcurrencyBookCodes/ParallelProgrammingAndConcurrency/ParallelProgrammingAndConcurrency.ChapterTwo/ParallelProgrammingAndConcurrency.ChapterTwo.csproj" Id="7c80e1d9-1f1b-48d0-ac48-02d8c9866182" />
