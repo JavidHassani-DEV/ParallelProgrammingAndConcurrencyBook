@@ -22,3 +22,10 @@ using these methods is not recommended and it cause thread pool threads to deple
 - `Task.Factory.StartNew` same as `Task.Run` but has `ThreadCreationOptions` which gives you some extra features
 - `ContinueWith()` it executes the function you pass on the same thread pool thread which executed the current task 
 - `WaitAll` takes a list of functions and blocks the current thread to wait until the execution of all methods passed inside.
+
+### there are some other main suggestions from author which are the following 
+- avoid mixing sync and async code,
+- avoid using Thread.Sleep in async methods,
+- long running async operations should support cancellation 
+- don't use async void, use Task or ValueTask for return type
+- awaiting method directly is better than creating a Task instance and then await it. 
