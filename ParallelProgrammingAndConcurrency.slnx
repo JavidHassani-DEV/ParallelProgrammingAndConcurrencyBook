@@ -4,4 +4,5 @@
   <Project Path="D:/Projects/ParallelProgrammingAndConcurrencyBookCodes/ParallelProgrammingAndConcurrency/ParallelProgrammingAndConcurrency.ChapterThree/ParallelProgrammingAndConcurrency.ChapterThree.csproj" Id="a3807126-b509-4ff6-9595-b9eeba3ffa60" />
   <Project Path="D:/Projects/ParallelProgrammingAndConcurrencyBookCodes/ParallelProgrammingAndConcurrency/ParallelProgrammingAndConcurrency.ChapterTwo/ParallelProgrammingAndConcurrency.ChapterTwo.csproj" Id="7c80e1d9-1f1b-48d0-ac48-02d8c9866182" />
   <Project Path="ParallelProgrammingAndConcurrency.ChapterFive/ParallelProgrammingAndConcurrency.ChapterFive.csproj" />
+  <Project Path="ParallelProgrammingAndConcurrency.ChapterSix/ParallelProgrammingAndConcurrency.ChapterSix.csproj" Id="59fa6488-f7e6-46a3-a72a-c32bbe73c899" />
 </Solution>
